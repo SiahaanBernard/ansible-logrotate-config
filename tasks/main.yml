@@ -14,7 +14,7 @@
 
 - name: copy logrotate to /etc/cron.daily
   copy:
-    src: files/logrotate
+    src: logrotate
     remote_src: yes
     dest: /etc/cron.daily
     mode: 0755
@@ -22,7 +22,7 @@
 
 - name: copy logrotate to /etc/cron.hourly
   copy:
-    src: files/logrotate
+    src: logrotate
     remote_src: yes
     dest: /etc/cron.hourly
     mode: 0755
