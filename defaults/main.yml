@@ -2,3 +2,4 @@ install_logrotate: false
 logrotate_conf_dir: "/etc/logrotate.d/"
 logrotate_scripts: []
 logrotate_run_hourly: true
+logrotate_run_daily: true

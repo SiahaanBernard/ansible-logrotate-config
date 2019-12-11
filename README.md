@@ -33,7 +33,9 @@ logrotate_scripts:
       - copytruncate
 ```
 
-**logrotate_run_hourly**: Set whether logrotate cron should run hourly (if true), or normally (daily). This assumes /etc/cron.daily/logrotate exists
+**logrotate_run_hourly**: Set whether logrotate cron should run hourly (if true), or normally (daily).
+
+**logrotate_run_daily**: Set whether logrotate cron should run daily (if true).
 
 ## Dependencies
 
